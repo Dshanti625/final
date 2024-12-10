@@ -1,0 +1,171 @@
+body{
+        background-color: green;
+}
+
+h1 {
+        font-size:60px;
+        text-decoration: underline;
+        font-family:serif;
+        font-weight:bold;
+        margin-left:25px;
+
+}
+
+h2 {
+
+       font-size: 48px;
+       text-decoration: underline;
+       
+       
+}
+
+li {
+
+}
+
+.blue_text {
+
+        color:blue;
+ }
+
+.small_cap_letter {
+
+        font-variant: small-caps;
+}
+
+.large_text {
+
+         font-size:  ;
+}
+
+.doc_header {
+
+         width:  ;
+         border:  ;
+         margin-bottom:  ;
+         margin-left:   ;
+         margin-right:  ;
+         border-radius:  ;
+         background-color:   ;
+
+}
+
+.doc_body {
+
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px;
+        border-radius: 15px dashed black;
+        background-color: #FFFFFFCC;
+}
+
+.heavy_border {
+
+        margin-right: 5px;
+}
+
+.inner_picture {
+     border:2px solid green;
+     width:100px;
+     float: left;
+
+    }
+.inner_video {
+   width:300px;
+
+}
+ .inner_picture {
+        border:2px solid green;
+        width:100px;
+ }
+
+ .small_img {
+       max-width:  100px;
+ }
+.small_img: hover{
+    max-width:200px;
+}
+ 
+ .inner_video {
+        width: 300px;
+ }
+
+
+.float_L{
+  float: right;
+  margin-left: 5px;
+}
+
+
+.flex_container {
+
+          display:flex;
+          background-color: #CCCCCCAA;
+          justify-content: center;
+          flex-direction: row;
+          border: 1px solid black;
+}
+
+.flex_container div {
+
+          background-color: #DDDDDDAA;
+          background: linear-gradient(silver,white);
+          padding: 10px;
+          margin:10px;
+          border: 1px solid black;
+          border-radius: 10px;
+}
+
+   table{
+         color: #000000;
+         border:2px solid #000000;
+         padding: 5px;
+         margin: 15px;
+}
+ tr {
+        border: 2px solid #000000;
+}
+td {
+       border: 2px dashed #000000;
+       background-color: #CDCDCD;
+       padding: 5px;
+       text-align: center;
+}
+th {
+       background-color: #999999;
+       border: 2px solid #000000;
+}
+
+
+
+ @keyframes rainbow{
+
+      0%{
+         color:orange;
+      }
+
+      25%{
+         color:green;
+      }
+
+      50%{
+           color:crimson;
+      }
+      
+      75%{
+          color:green;
+      }
+ 
+     100%{
+         color: orange;
+    }
+
+ a {
+      color:orange;
+      text-decoration: underline;
+      text-shadow: 0px 0px black;
+
+       /*linear; ease-in;ease-out;ease-in-out*/
+     /* transition: color 2.5s ease-in-out;*/
+}
