@@ -52,7 +52,7 @@ h2 {
 
 .doc_body {
 
-        width: 80px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
         border: 5px;
@@ -160,6 +160,7 @@ label {
      100% {
          color: orange;
     }
+}
 
  a {
       color:orange;
@@ -169,9 +170,11 @@ label {
        /*linear; ease-in;ease-out;ease-in-out*/
      /* transition: color 2.5s ease-in-out;*/
  }
-a:visited {
+a:hover{ 
 
           color:orange;
+          animation-duration: 4s;
+          animation-name: rainbow;
 }
 
     
